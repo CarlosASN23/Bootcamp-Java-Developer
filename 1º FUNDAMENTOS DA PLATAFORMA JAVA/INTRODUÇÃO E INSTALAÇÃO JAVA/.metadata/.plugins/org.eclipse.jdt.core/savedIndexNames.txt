@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\carlo\OneDrive\Documentos\DIO\Bootcamp Java Developer\.metadata\.plugins\org.eclipse.jdt.core
+1676473204.index
+1865797976.index
+2500739371.index
