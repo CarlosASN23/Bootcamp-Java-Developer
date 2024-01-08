@@ -1,13 +1,18 @@
-Controle de Fluxo - Desafio
+Case 1: Vamos imaginar que em um processo seletivo, existe o valor 
+        base salarial de R$ 2.000,00 e o salário pretentido pelo candidato.
+        Vamos elaborar um controle de fluxo onde:
+            - Se o valor salário base, for maior que valor salário pretentido, imprima : LIGAR PARA O CANDIDATO;
+            - Senão, Se o valor salário base for igual ao valor salário pretentido, imprima: LIGAR PARA O CANDIDATO, COM CONTRA PROPOSTA;
+            - Senão imprima: AGUARDANDO RESULTADO DOS DEMAIS CANDIDATOS.
 
-Vamos exercitar todo o conteúdo apresentado no módulo de Controle de Fluxo codificando o seguinte cenário.
+Case 2: Foi solicitado, que nosso sistema garanta que, diante das inúmeras candidaturas
+        sejam selecionados apenas no máximo, 5 candidatos para entrevista, onde o salário pretendido
+        seja menor ou igual ao salário base.
 
-O sistema deverá receber dois parâmetros via terminal que representarão dois números inteiros, com estes dois números você deverá obter a quantidade de interações (for) e realizar a impressão no console (System.out.print) dos números incrementados, exemplo:
+Case 3: Agora é hora de imprimir a lista dos candidatos selecionados, para disponibilizar para
+o RH entrar em contato.
 
-    Se você passar os números 12 e 30, logo teremos uma interação (for) com 18 ocorrências para imprimir os números, exemplo: "Imprimindo o número 1", "Imprimindo o número 2" e assim por diante.
-    Se o primeiro parâmetro for MAIOR que o segundo parâmetro, você deverá lançar a exceção customizada chamada de ParametrosInvalidosException com a segunda mensagem: "O segundo parâmetro deve ser maior que o primeiro"
-
-    Crie o projeto DesafioControleFluxo
-    Dentro do projeto, crie a classe Contador.java para realizar toda a codificação do nosso programa.
-    Dentro do projeto, crie a classe ParametrosInvalidosException que representará a exceção de negócio no sistema.
-
+Case 4: O RH deverá realizar uma ligação, com no máximo 03 tentativas para cada candidato
+        selecionado e caso o candidato atenda, deve-se imprimir:
+        "CONSEGUIMOS CONTATO COM _[CANDIDATO] ``` APÓS **_**[TENTATIVA]`** TENTATIVA(S)" ;**
+        Do contrário imprima: "NÃO CONSEGUIMOS CONTATO COM O _[CANDIDATO]_".
