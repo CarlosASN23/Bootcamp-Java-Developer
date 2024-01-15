@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Messenger</name>
+	<name>BancoDigital</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1705065101937</id>
+			<id>1705065101889</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
