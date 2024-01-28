@@ -12,7 +12,7 @@ public abstract class Veiculo {
 		this.chassi = chassi;
 	}
 	
-	public abstract void ligar() {
+	public void ligar() {
 		
 	}
 
